@@ -22,7 +22,7 @@ function resetClimbers() {
 
 function resetHTML() {
     $(".target-number").html(targetNumber);
-    $(".wins-losses-counter").html("<p> Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>");
+    $(".wins-losses-counter").html("<div> Wins: " + wins + "</div>" + "<div>Losses: " + losses + "</div>");
     $(".score-number").html(counter);
     $(".climber-images").empty();
 }
