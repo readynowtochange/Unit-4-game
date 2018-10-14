@@ -1,0 +1,67 @@
+
+body {
+    background-color: rgb(70, 113, 170);
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.jumbotron {
+   background-image: url(https://cbsdenver.files.wordpress.com/2012/11/cliffhanger.jpg?w=400&h=340&crop=1);
+        
+        background-size: cover;
+        background-position: 100%;
+        background-position-x: 50%;
+        width: 75%;
+        margin-top: 25px;
+        margin-left: 175px;
+        padding-top: 125px;
+        padding-bottom: 125px;
+        padding-right: 50px;
+        padding-left: 50px;
+    color: rgb(24, 12, 80);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+p {
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-right:50px;
+    padding-left: 50px;
+
+
+}
+
+div {
+    margin-left: 150px;
+}
+
+
+img {
+    size: 100px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+}
+
